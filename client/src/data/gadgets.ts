@@ -1,7 +1,7 @@
 export interface Gadget {
   id: string
   name: string
-  category: string
+  category: 'laptop' | 'camera' | 'console'
   image: string
   description: string
   pricing: {
