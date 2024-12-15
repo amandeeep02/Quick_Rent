@@ -34,7 +34,7 @@ QuickRent is a web application that allows users to rent high-end tech gadgets l
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/amandeeeo02/quick-rent.git
+git clone https://github.com/amandeeep02/quick-rent.git
 cd quick-rent/client
 npm install
 npm run dev
@@ -46,26 +46,3 @@ VITE_SERVER_URL=http://localhost:YOUR_PORT
 VITE_CLIENT_URL=http://localhost:5173
 ```
 
-3.Available Scripts
-
-npm run dev - Start development server
-npm run build - Build for production
-npm run lint - Run ESLint
-npm run preview - Preview production build locally
-
-
-## Project Structure
-
-client/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── ui/           # Reusable UI components
-│   │   └── sections/     # Page sections
-│   ├── context/         # React Context providers
-│   ├── data/           # Static data
-│   ├── firebase/       # Firebase configuration
-│   ├── lib/           # Utility functions
-│   ├── pages/         # Page components
-│   ├── router/        # Route configurations
-│   └── styles/        # Global styles
